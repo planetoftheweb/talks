@@ -1,6 +1,6 @@
 <!-- .slide: data-state="title" -->
 
-![Electron](./images/electron.svg)<!-- .slide: data-state="title" --> ![Vuejs](./images/vuejs.svg)
+![Electron](images/electron.svg)<!-- .element: style="width:40%" --> ![Vuejs](images/vuejs.svg)<!-- .element: style="width:40%" -->
 
 # Electron/Vue Fusion
 
@@ -22,7 +22,7 @@ Creating Desktop Apps with Electron and the Vue.js Framework
 
 ---
 
-![Electron](./images/electron.svg)
+![Electron](images/electron.svg)
 # What is Electron?
 - CSS, HTML & JS Apps
 - Node.js & Chromium V8
@@ -44,7 +44,7 @@ Creating Desktop Apps with Electron and the Vue.js Framework
 1. Non Native
 
 ---
-![Vuejs](./images/vuejs.svg)
+![Vuejs](images/vuejs.svg)
 
 # Why Vue?
 1. Reactive
@@ -132,12 +132,12 @@ git reset --hard
 # Getting ready
 
 - `npm install`
-- git stash (pop)
-- git diff (difftool)
+- `git stash pop`
+- `git diff` (difftool)
 
 ---
 <!-- .slide: data-state="title" -->
-![Electron](./images/electron.svg)
+![Electron](images/electron.svg)
 
 # Electron Essentials
 
@@ -303,4 +303,4 @@ click(item) {
 ---
 
 <!-- .slide: data-state="title" -->
-The End
+# The End

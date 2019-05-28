@@ -1,8 +1,8 @@
 var gulp = require("gulp"),
   folderIndex = require("gulp-folder-index"),
   browserSync = require("browser-sync").create(),
-  source = "./build/",
-  dest = "./build/";
+  source = "./docs/",
+  dest = "./docs/";
 
 function html() {
   return gulp.src(dest + "**/*.html");
