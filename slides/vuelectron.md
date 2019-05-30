@@ -23,7 +23,9 @@ Creating Desktop Apps with Electron and the Vue.js Framework
 ---
 
 ![Electron](images/electron.svg)
+
 # What is Electron?
+
 - CSS, HTML & JS Apps
 - Node.js & Chromium V8
 - Menus, Windows, APIs
@@ -31,12 +33,14 @@ Creating Desktop Apps with Electron and the Vue.js Framework
 ---
 
 # Who Uses it?
+
 - [Atom](https://atom.io/), [VS Code](https://code.visualstudio.com/), [Slack](https://slack.com/), [Teams](https://products.office.com/en-US/microsoft-teams/group-chat-software)<br> [Discord](https://discordapp.com/), [Hyper](https://hyper.is/), [Notion](https://www.notion.so/)<br>[Figma](https://www.figma.com/), [Twitch](https://www.twitch.tv/downloads)<br>[WhatsApp](https://www.whatsapp.com/), [Skype](https://www.skype.com/en/), <br>[Bootstrap Studio](https://bootstrapstudio.io/), [Notable](https://github.com/notable/notable)
 - [More](https://electronjs.org/apps)
 
 ---
 
 # Advantages/Disadvantages
+
 1. Leverage your skills
 1. Node Modules
 1. Easy to update
@@ -44,9 +48,11 @@ Creating Desktop Apps with Electron and the Vue.js Framework
 1. Non Native
 
 ---
+
 ![Vuejs](images/vuejs.svg)
 
 # Why Vue?
+
 1. Reactive
 1. Virtual DOM
 1. Components
@@ -54,7 +60,9 @@ Creating Desktop Apps with Electron and the Vue.js Framework
 ---
 
 <!-- .slide: data-state="title" -->
+
 # Easy to add
+
 ---
 
 <!-- .slide: data-state="textonimage" data-background-image="http://pixelprowess.com/i/includingvue.svg" -->
@@ -62,6 +70,7 @@ Creating Desktop Apps with Electron and the Vue.js Framework
 ---
 
 # Vue Basics <a class="btn btn-danger btn-lg text-white" href="https://codepen.io/planetoftheweb/pen/oJOwYb"><i class="fab fa-codepen"></i></a>
+
 - DOM Target
 - `Vue({})` Object
 - `data: {}`
@@ -69,7 +78,7 @@ Creating Desktop Apps with Electron and the Vue.js Framework
 
 ---
 
-# Template Directives  <a class="btn btn-danger btn-lg text-white" href="https://codepen.io/planetoftheweb/pen/BMyKyw?editors=1010"><i class="fab fa-codepen"></i></a>
+# Template Directives <a class="btn btn-danger btn-lg text-white" href="https://codepen.io/planetoftheweb/pen/BMyKyw?editors=1010"><i class="fab fa-codepen"></i></a>
 
 - `v-for`
 - `v-if`
@@ -84,7 +93,6 @@ Creating Desktop Apps with Electron and the Vue.js Framework
 - No event tracking
 - `Try it`: Add a minimum
 
-
 ---
 
 # Events <a class="btn btn-danger btn-lg text-white" href="https://codepen.io/planetoftheweb/pen/yZJZQM?editors=1010"><i class="fab fa-codepen"></i></a>
@@ -97,22 +105,23 @@ Creating Desktop Apps with Electron and the Vue.js Framework
 
 # Finished Codepen <a class="btn btn-danger btn-lg text-white" href="https://codepen.io/planetoftheweb/pen/omWNQd?editors=1010"><i class="fab fa-codepen"></i></a>
 
-
 - Filters
 - Computed Properties
 - Animation
 
 ---
+
 # Finished Course <a class="btn btn-primary btn-lg text-white fab fa-linkedin-in" href="https://www.linkedin.com/learning/vue-js-essential-training-2"></a> <a class="btn btn-success btn-lg text-white fab fa-github-alt" href="https://github.com/planetoftheweb/vue-essentials"></a>
 
 - Vue CLI
 - Routing
 
-
 ---
+
 <!-- .slide: data-state="title" -->
 
 <i class="fab fa-github-alt" style="font-size: 5rem;"></i>
+
 # Git Interlude
 
 ---
@@ -136,7 +145,9 @@ git reset --hard
 - `git diff` (difftool)
 
 ---
+
 <!-- .slide: data-state="title" -->
+
 ![Electron](images/electron.svg)
 
 # Electron Essentials
@@ -158,9 +169,8 @@ npm i -D electron@beta
 # Your First App
 
 - `mkdir yourapp`
-- `npm i -y`
+- `npm init -y`
 - `npm i --save-dev electron@4.1.4`
-
 
 ---
 
@@ -225,11 +235,13 @@ app.on('ready', createWindows);
 ---
 
 # IPC <a class="btn btn-primary text-white" href="https://github.com/planetoftheweb/electron-4/compare/02_05b...02_05e"><i class="fab fa-github-alt"></i></a>
+
 - Inter Process Communication
 - `ipcMain`
 - `ipcRenderer`
 
 ---
+
 <!-- .slide: data-state="title" -->
 
 # Vue Fusion
@@ -241,8 +253,8 @@ app.on('ready', createWindows);
 - [Vue CLI](https://cli.vuejs.org/)
 - Prebuilt process, Live Reload
 
-
 ---
+
 # Vue CLI Install
 
 ```
@@ -253,7 +265,9 @@ vue create electron-new
 cd electron-new
 npm run serve
 ```
+
 ---
+
 <!-- .slide: data-state="title" -->
 
 # Explore Installation
@@ -295,12 +309,13 @@ click(item) {
 ```
 
 ---
+
 # Icons <a class="btn btn-primary text-white" href="https://github.com/planetoftheweb/electron-4/compare/05_03b...05_03e"><i class="fab fa-github-alt"></i></a>
 
 - Part of Window object
 
-
 ---
 
 <!-- .slide: data-state="title" -->
+
 # The End
